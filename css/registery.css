@@ -2,13 +2,14 @@ table{
     width: 100%;
     border-collapse: collapse;
     min-width: 600px;
+    box-shadow: 10px 10px 10px #09a075;
 }
 th, td{
     border: 1px solid #ddd;
     padding: 10px;
     text-align: left;
 }
- tbody tr:nth-of-type(odd){
+ tbody tr:nth-child(even){
 
     background-color:lightgray;
 }
